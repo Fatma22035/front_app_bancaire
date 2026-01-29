@@ -589,34 +589,6 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Actions */}
-              <div className="mt-8 flex flex-wrap gap-4">
-                {result === 'Accordé' ? (
-                  <>
-                    <button className="px-6 py-3 bg-gradient-to-r from-green-500 to-emerald-600 text-white font-semibold rounded-xl hover:shadow-lg transition-all duration-200">
-                      Continuer avec la demande
-                    </button>
-                    <button className="px-6 py-3 bg-white border border-gray-300 text-gray-700 font-semibold rounded-xl hover:bg-gray-50 transition-all duration-200">
-                      Télécharger l'offre
-                    </button>
-                    <button className="px-6 py-3 bg-white border border-gray-300 text-gray-700 font-semibold rounded-xl hover:bg-gray-50 transition-all duration-200">
-                      Comparer d'autres offres
-                    </button>
-                  </>
-                ) : (
-                  <>
-                    <button className="px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-xl hover:shadow-lg transition-all duration-200">
-                      Consulter un conseiller
-                    </button>
-                    <button className="px-6 py-3 bg-white border border-gray-300 text-gray-700 font-semibold rounded-xl hover:bg-gray-50 transition-all duration-200">
-                      Améliorer mon score
-                    </button>
-                    <button className="px-6 py-3 bg-white border border-gray-300 text-gray-700 font-semibold rounded-xl hover:bg-gray-50 transition-all duration-200">
-                      Réessayer plus tard
-                    </button>
-                  </>
-                )}
-              </div>
             </div>
           </div>
         )}
